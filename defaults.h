@@ -113,7 +113,7 @@
 
     #define DEFAULT_X_STEPS_PER_MM (400) //  -> 1 µstep = 0.01 mm
     #define DEFAULT_Y_STEPS_PER_MM (400)
-    #define DEFAULT_Z_STEPS_PER_MM (800) //DUMP ,SET Z TWICE XYU 把z设置成xyu的两倍
+    #define DEFAULT_Z_STEPS_PER_MM (400) 
     /// 649  :  Q in  U,V,W -> mm
     #if (AXIS_Q_TYPE == LINEAR)
         #define DEFAULT_Q_STEPS_PER_MM (400)
@@ -150,7 +150,7 @@
 	// linear
 	#define DEFAULT_X_ACCELERATION (10.0*60*60) // 10*60*60 mm/min^2 = 10 mm/sec^2
 	#define DEFAULT_Y_ACCELERATION (10.0*60*60)
-	#define DEFAULT_Z_ACCELERATION (10.0*60*60)
+	#define DEFAULT_Z_ACCELERATION (20.0*60*60) // DUMP
 	#if (AXIS_Q >0)
 		#define DEFAULT_U_ACCELERATION (10.0*60*60) // 10*60*60 mm/min^2 = 10 mm/sec^2
 		#define DEFAULT_V_ACCELERATION (10.0*60*60)

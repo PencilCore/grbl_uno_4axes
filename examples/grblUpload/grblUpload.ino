@@ -1,4 +1,4 @@
-// PencilCore Modified
+// Modified For XYUZ
 /***********************************************************************
 This sketch compiles and uploads Grbl to your 328p-based Arduino! 
 
