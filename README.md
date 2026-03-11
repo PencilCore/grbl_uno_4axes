@@ -1,4 +1,4 @@
-# Grbl-Uno-4axes
+# grbl-uno-4axes
 
 这是一个专为**热线切割机**修改的 Grbl 版本，已移植到 Arduino UNO，支持四轴控制。
 默认采用双平面配置：**XY / UZ**。
